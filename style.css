@@ -113,8 +113,39 @@ h3 {
     width: 150px;
     padding: 15px;
     color: white;
-    background-color: rgb(98, 180, 100);
     border-radius: 15px;
+}
+
+.Personal {
+    background-color: #1dbdaa;
+}
+
+.Work {
+    background-color: #357ef3;
+}
+
+.Study {
+    background-color: #f5ad31;
+}
+
+.Health {
+    background-color: #7C6EE6;;
+}
+
+.Finance {
+    background-color: #22C55E;
+}
+
+.Home {
+    background-color: #D97706;
+}
+
+.Shopping {
+    background-color: #ee2cce;
+}
+
+.Miscellaneous {
+    background-color: #6B7280;
 }
 
 .btn {
@@ -128,7 +159,7 @@ h3 {
 }
 
 .edit {
-    background-color: rgb(219, 170, 48);
+    background-color: rgb(245, 158, 11);
 }
 
 .del {

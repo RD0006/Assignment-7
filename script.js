@@ -15,7 +15,7 @@ btn.addEventListener("click", () => {
 
     toDoItem.innerHTML = `
                 <div class="toDoItem-1">
-                    <span class="category-span">${category}</span>
+                    <span class="category-span ${category}">${category}</span>
                     <h3>${value}</h3>
                 </div>
                 <div>
