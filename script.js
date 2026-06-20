@@ -4,6 +4,8 @@ const btn = document.querySelector("#add");
 const toDoBox = document.querySelector(".to-do-list");
 
 btn.addEventListener("click", () => {
+    toDoBox.style.backgroundColor = "whitesmoke";
+
     const value = inp.value;
     const category = categoryInp.value;
 
@@ -58,5 +60,19 @@ toDoBox.addEventListener("click", (e) => {
             if (e.key == "Enter") 
                 title.textContent = input.value.trim() || currTask;
         });
+    }
+
+    if (e.target.classList.contains("input-checkbox")) {
+        const currTask = e.target.closest(".li");
+
+        if (e.target.checked) {
+            toDoBox.removeChild(currTask);
+            toDoBox.append(currTask);
+        }
+
+        else {
+            toDoBox.removeChild(currTask);
+            toDoBox.prepend(currTask);
+        }
     }
 });

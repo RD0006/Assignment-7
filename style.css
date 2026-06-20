@@ -77,7 +77,6 @@ option {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: whitesmoke;
     border-radius: 50px;
     font-family: inherit;
     font-size: inherit;
